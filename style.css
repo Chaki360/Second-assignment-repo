@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+background-color: lavender;
+
+}
+.top-headline{
+    padding-left: 5%;
+}
+.first-section{
+    margin-top: 100px;
+    display: flex;
+    padding-left: 5%;
+}
+.half-width{
+
+    width: 50%;
+}
+h1{
+
+    font-size: 40px;
+}
+.link-button{
+
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 12px;
+}
+.products-area{
+    width: 1300px;
+    padding-left: 7%;
+}
+
+.product-image{
+    width: 165px;
+
+    
+}
+.necessary-product{
+
+    width: 40%;
+    background-color: rgba(245, 245, 245, 0.863);
+    border-radius: 20px;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-left: 10px;
+}
+
+.products-headline{
+
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 165px;
+    
+}
+h2{
+
+    font-size: 30px;
+}
+.price{
+    font-size: 30px;
+}
+.price-rating{
+    display: flex;
+}
+.r{
+    margin-left: 10px;
+
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+
+}
+.link-button2{
+    margin-left: 1085px;
+    text-decoration: none;
+    font-weight: 700;
+    color: blueviolet;
+}
+footer{
+
+    background-color: rgba(95, 160, 122, 0.671);
+    height: 150px;
+    margin-top: 150px; 
+}
+.guideline{
+    display: flex;
+    margin-top: 60px;
+    padding-left: 5%;
+}
+.guideimg{
+    width: 70%;
+    border-radius: 5px;
+}
+.guideline-text{
+    margin-right: 60px;
+    padding-right: 12%;
+}
+.footer-headline{
+    text-align: center;
+}
+.copyright-text{
+    text-align: center;
+}
+.social-medias{
+    margin-left: 700px;
+}
+.fa-facebook-f{
+    width: 25px;
+}
+.fa-instagram-square{
+    width: 25px;
+}
+.fa-youtube{
+    width: 25px;
+}
+.fa-twitch{
+    width: 25px;
+}
